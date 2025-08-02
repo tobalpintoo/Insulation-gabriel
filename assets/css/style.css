@@ -1,0 +1,159 @@
+/* Navbar section */
+.company-logo{
+    width: 100px;
+}
+nav {
+    background-color: #ffffff;
+}
+
+.text-nav {
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.text-home {
+    color: #fc4a1a;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.navbar-nav a {
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: #fc4a1a;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-nav a:hover::after {
+    width: 100%;
+}
+
+.navbar-nav a:hover {
+    color: #fc4a1a;
+}
+
+
+/* Carousel section */
+
+.carousel-item {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption{
+    background-color: rgba(30, 25, 70, 0.8); 
+    border-radius: 8px;
+}
+
+.carousel-btn {
+    padding: 8px 30px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+
+.carousel-btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* // About section */
+
+hr {
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.container-about {
+    display: flex;
+    padding: 20px;
+}
+
+.img-about {
+    width:80em;
+    height: 250px;
+}
+
+.title-about {
+    color: #302b63;
+}
+
+/* // Service section */
+.card-section {
+    padding-bottom: 100px;
+}
+.servicios-section {
+    background-color: #f8f8f8;
+    padding-bottom: 50px;
+}
+
+.card-servicio {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.card-servicio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.icono-servicio {
+    font-size: 2.5rem;
+    color: #fc4a1a;
+    margin-bottom: 15px;
+}
+
+.card-servicio p {
+    font-weight: 600;
+    color: #2d2f33;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Contact section */
+
+.iconos{
+    margin-top: 5px;
+    font-size: 30px;
+    color: #fc4a1a;
+}
+
+.btn.boton-color {
+    background-color: #fc4a1a;
+    padding: 10px;
+}
+
+.btn.boton-color:hover {
+    background-color: #d63b0e;
+    border: none;
+    color: #fff;
+}
+
+
+/* footer section */
+.footer-color {
+    background-color: #fc4a1a;
+}
