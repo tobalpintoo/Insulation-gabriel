@@ -47,6 +47,14 @@ nav {
 
 /* Carousel section */
 
+.carrousel-img-01 {
+    background-image: url('../img/black.jpg');
+}
+
+.carrousel-img-02 {
+    background-image: url('../img/black.jpg');
+}
+
 .carousel-item {
     height: 60vh;
     background-size: cover;
@@ -157,3 +165,4 @@ hr {
 .footer-color {
     background-color: #fc4a1a;
 }
+
